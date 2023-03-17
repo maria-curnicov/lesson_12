@@ -19,3 +19,12 @@
 .w-18 {
   width: 18rem;
 }
+
+.h-200 {
+  height: 200px;
+}
+
+.article-img {
+  object-fit: cover;
+  height: 100%;
+}
