@@ -1,0 +1,21 @@
+.logo {
+  width: 70px;
+  height: 70px;
+}
+
+.logo-footer {
+  width: 50px;
+  height: 40px;
+}
+
+.m {
+  margin: 15px;
+}
+
+.mt {
+  margin-top: 20px;
+}
+
+.w-18 {
+  width: 18rem;
+}
