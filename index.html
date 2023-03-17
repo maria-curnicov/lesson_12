@@ -25,12 +25,28 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                <a class="nav-link" href="#">About</a>
-                <a class="nav-link" href="#">Wine Collection</a>
-                <a class="nav-link" href="#">Contacts</a>
-              </div>
+              <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Wine Collection</a></li>
+                <li class="nav-item dropdown">
+
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Contacts
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Facebook</a></li>
+                    <li><a class="dropdown-item" href="#">Twitter</a></li>
+                    <li><a class="dropdown-item" href="#">Instagram</a></li>
+                    <li><a class="dropdown-item" href="#">Github</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Phone</a></li>
+                  </ul>
+                </li>
+              </ul>
             </div>
             <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -42,8 +58,8 @@
     </div>
 
     <div class="row">
-      <div class="col order-md-last">
-        <div class="card w-18 mt">
+      <div class="col-md-6 col-lg-2 order-md-2 order-lg-last">
+        <div class="card mt-4">
           <img src="images/cabernet-savignon.jpg" class="card-img-top" alt="wine-info">
           <div class="card-body">
             <p class="card-text"><span class="fw-bold">Chardonnay</span> is a medium to full-bodied white wine that is
@@ -52,7 +68,7 @@
               own as the most popular wine varietal in America. </p>
           </div>
         </div>
-        <div class="card w-18 mt">
+        <div class="card mt-4">
           <img src="images/cabernet-savignon1.jpg" class="card-img-top" alt="wine-info">
           <div class="card-body">
             <p class="card-text"><span class="fw-bold">Pinot Grigi</span> is a quintessential Italian white wine. This
@@ -60,7 +76,7 @@
               as light, dry and refreshing with crisp fruit flavors like apple or pear.</p>
           </div>
         </div>
-        <div class="card w-18 mt">
+        <div class="card mt-4">
           <img src="images/cabernet-savignon2.jpg" class="card-img-top" alt="wine-info">
           <div class="card-body">
             <p class="card-text"><span class="fw-bold">Sauvignon Blanc</span> is a light, dry and crisp white wine
@@ -71,8 +87,8 @@
         </div>
       </div>
 
-      <div class="col col-7">
-        <div class="accordion accordion-flush mt" id="accordionFlushExample">
+      <div class="col-lg-8 order-md-1">
+        <div class="accordion accordion-flush mt-4" id="accordionFlushExample">
           <div class="accordion-item">
             <h2 class="accordion-header" id="flush-headingOne">
               <button class="accordion-button collapsed text-uppercase" type="button" data-bs-toggle="collapse"
@@ -143,13 +159,13 @@
                 borrowing from the The ultimate Indo-European origin of the word is the subject of some continued
                 debate. Some scholars
                 have noted the similarities between the words for wine in Indo-European languages (e.g. Armenian gini,
-                Latin vinum, Ancient Greek οἶνος, Russian вино [vʲɪˈno]), Kartvelian (e.g. Georgian ღვინო [ɣvinɔ]), and
-                Semitic (*wayn; Hebrew יין [jajin]), pointing to the possibility of a common origin of the word denoting
-                "wine" in these language families.[52] The Georgian word goes back to Proto-Kartvelian *ɣwino-,[53]
+                Latin vinum, Ancient Greek οἶνος, Russian вино [vʲno]), Kartvelian (e.g. Georgian ღვინო [vinɔ]), and
+                Semitic (*wayn; Hebrew [jajin]), pointing to the possibility of a common origin of the word denoting
+                "wine" in these language families.[52] The Georgian word goes back to Proto-Kartvelian *wino-,[53]
                 which is either a borrowing from Proto-Indo-European[53][54][55][56][57][58] or the lexeme was
-                specifically borrowed from Proto-Armenian *ɣʷeinyo-, whence Armenian gini.[59][60][61][62][53] An
-                alternate hypothesis by Fähnrich supposes *ɣwino-, a native Kartvelian word derived from the verbal root
-                *ɣun- ('to bend').[63] See *ɣwino- for more. All these theories place the origin of the word in the same
+                specifically borrowed from Proto-Armenian *ʷeinyo-, whence Armenian gini.[59][60][61][62][53] An
+                alternate hypothesis by Fähnrich supposes *wino-, a native Kartvelian word derived from the verbal root
+                *un- ('to bend').[63] See *wino- for more. All these theories place the origin of the word in the same
                 geographical location, South Caucasus, that has been established based on archeological and biomolecular
                 studies as the origin of viticulture.
               </div>
@@ -157,7 +173,7 @@
           </div>
         </div>
 
-        <div class="card mb-3 mt">
+        <div class="card mb-3 mt-4">
           <div class="row g-0">
             <div class="col-md-4">
               <img src="images/Guest-House-Square.jpeg" class="img-fluid article-img" alt="house">
@@ -177,14 +193,14 @@
           </div>
         </div>
 
-        <div class="card mb-3 mt">
+        <div class="card mb-3 mt-4">
           <div class="row g-0">
             <div class="col-md-8">
               <div class="card-body">
                 <h5 class="card-title">The Restaurants</h5>
-                <p class="card-text">With the aim of showcasing the most authentic Moldavan traditions, the winery’s
+                <p class="card-text">With the aim of showcasing the most authentic Moldavan traditions, the winery's
                   first restaurant, ASCONI, brings you the true heritage, tastes and aromas of Moldova. Together with
-                  our kitchen team, we have researched our families’ recipes and compiled our favorites, bringing you
+                  our kitchen team, we have researched our families' recipes and compiled our favorites, bringing you
                   authentic tastes, cooked with fresh ingredients and sprinkled with love, just like Grandmother used to
                   make it! SOL NEGRU restaurant Moldovan with a twist balkan is served under a hand-crafted thatched
                   reed roof and paired with your favourite ASCONI wines.</p>
@@ -197,9 +213,9 @@
           </div>
         </div>
 
-        <div class="border border-secondary border-1 rounded-1 bg-body-tertiary m">
+        <div class="border border-secondary border-1 rounded-1 bg-body-tertiary p-4">
           <h4 class="m">Create account</h4>
-          <form class="row g-3 m">
+          <form class="row g-3">
             <div class="col-md-6">
               <label for="inputEmail4" class="form-label">Email</label>
               <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
@@ -225,7 +241,7 @@
               <select id="inputState" class="form-select">
                 <option selected>Choose...</option>
                 <option>Ukraine</option>
-                <option>Roumania</option>
+                <option>Romania</option>
                 <option>Moldova</option>
                 <option>Italy</option>
                 <option>France</option>
@@ -253,7 +269,7 @@
         </div>
       </div>
 
-      <div class="col order-md-first mt">
+      <div class="col-md-6 col-lg-2 order-md-3 order-lg-first mt-4">
         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -277,9 +293,8 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>
-        <div class="card mt w-18">
+        <div class="card mt-4">
           <img src="images/wine-map.jpeg" class="card-img-top" alt="wine-map">
-          <img src="images/info-card.png" class="card-img-top h-200" alt="wine-map">
           <div class="card-body">
             <p class="card-text fs-3 text-center text">The world-famous wines</p>
           </div>
@@ -352,17 +367,17 @@
       </div>
     </div>
 
-    <div class="row mt">
+    <div class="row mt-4">
       <div class="col">
         <footer class="bg-light text-center">
           <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-            <img class="btn logo-footer" src="images/facebook.png"></img>
-            <img class="btn logo-footer" src="images/twitter.png"></img>
-            <img class="btn logo-footer" src="images/google-plus.png"></img>
-            <img class="btn logo-footer" src="images/github.png"></img>
-            <img class="btn logo-footer" src="images/instagram.png"></img>
-            <img class="btn logo-footer" src="images/linkedin.png"></img>
-            <p>&copy; Мария Курников</p>
+            <img class="btn social-img" src="images/facebook.png" alt="social-image-facebook">
+            <img class="btn social-img" src="images/twitter.png" alt="social-image-twitter">
+            <img class="btn social-img" src="images/google-plus.png" alt="social-image-google-plus">
+            <img class="btn social-img" src="images/github.png" alt="social-image-github">
+            <img class="btn social-img" src="images/instagram.png" alt="social-image-instagram">
+            <img class="btn social-img" src="images/linkedin.png" alt="social-image-linkedin">
+            <p class="mt-2">&copy; Maria Curnicov</p>
           </div>
         </footer>
       </div>

@@ -3,25 +3,11 @@
   height: 70px;
 }
 
-.logo-footer {
-  width: 50px;
-  height: 40px;
-}
-
-.m {
-  margin: 15px;
-}
-
-.mt {
-  margin-top: 20px;
-}
-
-.w-18 {
-  width: 18rem;
-}
-
-.h-200 {
-  height: 200px;
+.social-img {
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  margin: 0 7px;
 }
 
 .article-img {
